@@ -1,0 +1,169 @@
+@import 'colors';
+
+body
+{
+	background : $darkColor5;
+}
+.mainColor
+{
+	background : $mainColor;
+}
+
+.mainColor2
+{
+	background : $mainColor2;
+}
+
+.mainFontColor
+{
+	color : $mainColor;
+}
+
+.mainFontColor2
+{
+	color : $mainColor2;
+}
+
+.secondaryColor
+{
+	background : $secondaryColor;
+}
+
+.secondaryColor2
+{
+	background : $secondaryColor2;
+}
+
+.secondaryColor3
+{
+	background : $secondaryColor3;
+}
+
+
+#top-nav
+{
+	height : 100px;
+}
+
+#main-nav
+{
+	border-bottom: thick solid $secondaryColor2;
+}
+
+#kfupm-logo
+{
+	width : 80px;
+	margin:15px;
+}
+
+#first-row
+{
+	margin : 10px;
+}
+
+.mainFont
+{
+	font-family: 'Lemonada', cursive;
+}
+
+.card
+{
+	background : $darkColor4;
+	color : white;
+	font-family : $mainFont;
+}
+
+.team_item
+{
+	width : 300px !important;
+	height : 300px !important;
+	
+	.card
+	{
+		width : 100%;
+		height: 100%;
+	}
+}
+
+
+
+#left-col
+{
+	background : $darkColor4;
+	border-right: thick solid $secondaryColor2;
+	alpha : 0.6;
+	padding-bottom : 30px;
+	padding-right : 10px;
+}
+
+
+.carousel-content {
+  position: absolute;
+  bottom: 10%;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  background: rgba(0, 0, 0, 0.63);
+  padding : 10px;
+  width : 100%;
+}
+
+
+.table-div
+{
+	margin : 10px;
+	.table-title
+	{
+		color : $mainColor;
+		font-size : 18px;
+	}
+}
+
+#cards-row
+{
+	.card
+	{
+		height:200px;
+	}
+}
+
+
+#cards-row2
+{
+	
+	.card
+	{
+		height:210px;
+	}
+}
+
+#players-cards
+{
+	padding : 10px;
+	.card-content
+	{
+		padding : 10px;
+		margin-bottom : 50px;
+
+		h6
+		{
+			font-size : 12px;
+		}
+
+		p
+		{
+			font-size : 8px;
+		}
+	}
+}
+
+.side-table
+{
+	color : white;
+	margin-bottom : 20px;
+}
+
+#news-title
+{
+	font-size : 30px;
+}
